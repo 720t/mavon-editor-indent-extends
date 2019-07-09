@@ -6,9 +6,14 @@ mavon-editor 编辑器 多行缩进组件
 - 实现原理是 继承并重写了 mavon-editor 的 insertTab、unInsertTab 两个 methods
 - tab 事件增加或减少缩进后都要重新计算 selection，我实现了功能，代码可能比较冗余，若有更好的实现，欢迎 fork
 
-# [演示地址](https://720t.github.io/mavon-editor-indent-extends/)
+## 使用
 
-# 克隆项目
+- 选择一行或者多行，按 tab 键增加缩进
+- 选择一行或者多行，按 shift+tab 键减少缩进
+
+## [演示地址](https://720t.github.io/mavon-editor-indent-extends/)
+
+## 克隆项目
 
 ```bash
 git clone https://github.com/720t/mavon-editor-indent-extends.git
