@@ -4,7 +4,8 @@ mavon-editor 编辑器 多行缩进组件
 
 - 组件位于 src/components/MarkEditor
 - 实现原理是 继承并重写了 mavon-editor 的 insertTab、unInsertTab 两个 methods
-- tab 事件增加或减少缩进后都要重新计算 selection，我实现了功能，代码可能比较冗余，若有更好的实现，欢迎 fork
+- tab 事件增加或减少缩进后都要重新计算 selection，实现代码可能比较冗余，若有更好的实现，欢迎 fork
+- 该组件功能比较简单，所以未发布到 npm 做为独立组件
 
 ## 使用
 
