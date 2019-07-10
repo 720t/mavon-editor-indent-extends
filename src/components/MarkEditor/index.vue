@@ -98,8 +98,10 @@ export default {
             return ''
           })
           value[1] = value[1].replace(/^(\s{1})[^\s]/mg, function(word) {
-            elen += 1
-            return word.replace(/^\s/, '')
+            return word.replace(/^ /, function() {
+              elen += 1
+              return ''
+            })
           })
         }
 
